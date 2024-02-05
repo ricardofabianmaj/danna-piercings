@@ -1,0 +1,26 @@
+@font-face{
+    font-family: Berkahi-blackletter;
+    src: url(components/fonts/berkahi-blackletter.ttf);
+    }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+header {
+    background-image: url(components/Header/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+}
+h1 {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F9C200;
+    font-size: 80px;
+    
+}
