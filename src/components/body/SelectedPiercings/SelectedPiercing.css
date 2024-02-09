@@ -1,0 +1,108 @@
+#SelectedPiercing {
+    position: fixed;
+    padding: 30px 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(37, 37, 37);
+    min-width: 300px;
+    max-width: 700px;
+
+    max-height: 800px;
+    z-index: 3;
+}
+
+#SelectedPiercing h1 {
+    text-shadow: none;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    color: #F9C200;
+}
+
+.SPElementent {
+    display: inline-block;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ShowTotal {
+    display: block;
+    bottom: 0;
+    background-color: rgba(37, 37, 37);
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 20px 0px;
+}
+
+#cart-container {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 20px;
+    max-height: 380px;
+    overflow-y: auto; 
+}
+
+.RemoveButton {
+    padding: 8px;
+    background-color: rgb(24, 24, 24);
+    color: red;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+li {
+    margin: 5px;
+    display: block;
+}
+
+.ButtonCart {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin: 10px 0px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#WhenClosedCart {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+/*Style for cellphones*/
+@media screen and (max-width: 670px) {
+    #SelectedPiercing {
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 0px;
+        max-width: 100%;
+    }
+    #FinishBuy, .OpenCloseButton {
+        width: 90vw;
+        font-size: 17px;
+        margin: 10px 0px;
+    }
+    #SelectedPiercing li {
+        font-size: 15px;
+        display: block;
+        white-space: nowrap;
+    }
+    .RemoveButton {
+        right: 20px;
+        font-size: 15px;
+    }
+    #cart-container {
+        list-style-type: decimal;
+        max-height: 340px;
+    }
+    .ShowTotal {
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+}

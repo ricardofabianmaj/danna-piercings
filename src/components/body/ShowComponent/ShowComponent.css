@@ -1,0 +1,118 @@
+.Piercing {
+    max-width: 20%;
+    height: auto; 
+    display: inline-block;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px 15px;
+    font-family: 'Open Sans', system-ui, -apple-system;
+    color: white;
+}
+
+#ShowComponent {
+    text-align: center;
+}
+
+.Piercing img {
+    width: 95%;
+    border-radius: 15px;
+}
+
+.price {
+    font-size: 2em;
+}
+
+.name {
+    white-space: nowrap;
+    display: inline-block;
+    margin: 10px 0px;
+
+    text-align: center;
+}
+
+.ShowComponent button {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin: 15px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.ShowComponent button:hover {
+    background-color: black;
+    color: #F9C200;
+}
+
+.ShowTrue {
+    display: inline-block;
+}
+
+.ShowComponent h1 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+    text-align: center;
+    margin: 50px;
+}
+
+/* Styles for cellfone */
+@media (max-width: 600px) {
+    .Piercing {
+        max-width: 65vw;
+        display: block;
+        margin: 35px auto;
+    }
+    .ShowComponent button {
+        height: 50px;
+        width: 85%;
+        font-size: 25px;
+    }
+    .name {
+        font-size: 25px;
+        margin: 5px 0px;
+        white-space: wrap;
+    }
+}
+
+/* Styles for tablet */
+@media (min-width: 601px) and (max-width: 670px) {
+    .Piercing {
+        max-width: 40vw;
+        margin: 7px 7px;
+    }
+    #ShowComponent button {
+        margin: 15px 10px;
+    }
+    .name {
+        font-size: 2.4vw;
+    }
+}
+@media (min-width: 671px) and (max-width: 1000px) {
+    .Piercing {
+        max-width: 25vw;
+        margin: 10px 10px;
+    }
+    .name {
+        font-size: 2vw;
+        margin: 5px 0px;
+        width: 100%;
+
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+    }
+}
+/*Styles to plus than tablet*/
+@media (min-width: 1001px) and (max-width: 1225px) {
+    .Piercing {
+        max-width: 26vw !important;
+        margin: 15px 15px;
+    }
+    .name {
+        font-size: 17px;
+        margin: 5px 0px;
+    }
+}
