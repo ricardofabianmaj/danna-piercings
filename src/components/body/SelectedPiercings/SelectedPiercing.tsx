@@ -22,11 +22,11 @@ function SelectedPiercing() {
     };
 
     function SendMessage(){
-        var message :string = 'Olá Júlia, tudo bem? \n Eu gostaria fazer o seguinte pedido \n'
+        var message :string = 'Olá Danna, tudo bem? \n Eu gostaria fazer o seguinte pedido \n'
         selectedPiercings.forEach((item: IntPiercings) => {
-            message += `${item.name} - ${item.price} \n`
+            message += `${item.name} - R$ ${item.price},00 \n`
         })
-        message += `Total: ${TotalPrice}`
+        message += `Total: R$ ${TotalPrice},00`
         const whatsappLink = `https://wa.me/558386562751?text=${encodeURIComponent(message)}`;
         window.open(whatsappLink, '_blank');
     }
