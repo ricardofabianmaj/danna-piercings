@@ -38,7 +38,7 @@ export const Argola = [
     {
         id: 26,
         name: 'Coração Cravejado Direito',
-        price: 80,
+        price: 90,
         image: require('./piercingsmidia/26.jpg')
     },
     {
@@ -62,25 +62,25 @@ export const Argola = [
     {
         id: 31,
         name: 'Segmento com Zircônia Ornamentada',
-        price: 90,
+        price: 80,
         image: require('./piercingsmidia/31.jpg')
     },
     {
         id: 53,
         name: 'Segmento com 5 Zircônia',
-        price: 90,
+        price: 80,
         image: require('./piercingsmidia/53.jpg')
     },
     {
         id: 62,
         name: 'Segmento com Zircônia Ornamentada',
-        price: 90,
+        price: 80,
         image: require('./piercingsmidia/62.jpg')
     },
     {
         id: 82,
         name: 'Segmento Entrelaçado com Zircônia',
-        price: 80,
+        price: 90,
         image: require('./piercingsmidia/82.jpg')
     }
 ];

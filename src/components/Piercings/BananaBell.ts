@@ -2,7 +2,7 @@ export const BananaBell = [
     {
         id: 5,
         name: 'Banana Bell JBar',
-        price: 80,
+        price: 60,
         image: require('./piercingsmidia/5.jpg')
     },
     {
@@ -32,7 +32,7 @@ export const BananaBell = [
     {
         id: 74,
         name: 'Banana Bell com Zircônias Brancas',
-        price: 80,
+        price: 60,
         image: require('./piercingsmidia/74.jpg')
     },
     {

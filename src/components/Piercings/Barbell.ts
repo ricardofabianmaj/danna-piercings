@@ -14,7 +14,7 @@ export const Barbell = [
     {
         id: 41,
         name: 'MicroCurvo Spike',
-        price: 90,
+        price: 50,
         image: require('./piercingsmidia/41.jpg')
     }
     ,
@@ -32,7 +32,7 @@ export const Barbell = [
     },
     {
         id: 45,
-        name: 'barbell Básico',
+        name: 'Barbell Básico',
         price: 50,
         image: require('./piercingsmidia/45.jpg')
     },

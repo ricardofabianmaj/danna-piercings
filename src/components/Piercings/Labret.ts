@@ -2,7 +2,7 @@ export const Labret= [
     {
         index: 1,
         name: 'Labret Garra Três Zircônias',
-        price: 80,
+        price: 70,
         image: require('./piercingsmidia/1.jpg')
     },
     {
@@ -32,7 +32,7 @@ export const Labret= [
     {
         id: 12,
         name: 'Labret 6 Esferas',
-        price: 80,
+        price: 70,
         image: require('./piercingsmidia/12.jpg')
     },
     {
@@ -116,7 +116,7 @@ export const Labret= [
     {
         id: 38,
         name: 'Labret Adaga',
-        price: 60,
+        price: 70,
         image: require('./piercingsmidia/38.jpg')
     },
     {
@@ -140,7 +140,7 @@ export const Labret= [
     {
         id: 52,
         name: 'Labret Zircônia 12 Esferas',
-        price: 80,
+        price: 70,
         image: require('./piercingsmidia/52.jpg')
     },
     {
@@ -170,7 +170,7 @@ export const Labret= [
     {
         id: 60,
         name: 'Labret Flat (Modelo 2)',
-        price: 60,
+        price: 50,
         image: require('./piercingsmidia/60.jpg')
     },
     {
@@ -199,8 +199,8 @@ export const Labret= [
     },
     {
         id: 81,
-        name: 'Labret Cluster 5 Zircônia',
-        price: 80,
+        name: 'Labret Cluster 5 Zircônias',
+        price: 100,
         image: require('./piercingsmidia/81.jpg')
     },
     {
