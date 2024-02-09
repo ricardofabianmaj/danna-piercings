@@ -105,4 +105,7 @@ li {
         margin: 10px 0px;
         font-size: 20px;
     }
+    #EmptyCart{
+        display: none;
+    }
 }

@@ -58,7 +58,7 @@ function SelectedPiercing() {
                 style={{ display: seeCart || selectedPiercings.length ===0 ? 'none' : 'block' }}>Abrir Carrinho</button>
 
             {selectedPiercings.length === 0 ? (
-                <h2 
+                <h2 id="EmptyCart"
                 className={selectedPiercings.length ===0 ? "ShowTotal onHidden" : "ShowTotal"}>Carrinho Vazio</h2>
             ) : (
                 <h2 
