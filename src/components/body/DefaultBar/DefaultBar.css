@@ -36,9 +36,9 @@ nav a:hover {
     background-color: gray;   
 }
 /* Styles for cellfone */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #DefaultBar .midia {
-        height: 30px;
+        height: 25px;
         transform: translateY(-15%);
     }
     #DefaultBar nav a {
