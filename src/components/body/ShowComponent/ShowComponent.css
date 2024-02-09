@@ -87,6 +87,7 @@
     }
     .name {
         font-size: 2.4vw;
+        color: red;
     }
 }
 @media (min-width: 721px) and (max-width: 1000px) {
@@ -98,6 +99,7 @@
         font-size: 2vw;
         margin: 5px 0px;
         width: 100%;
+        color: green;
 
         overflow: hidden; 
         text-overflow: ellipsis; 
@@ -105,7 +107,7 @@
     }
 }
 /*Styles to plus than tablet*/
-@media (min-width: 1001px) and (max-width: 1225px) {
+@media (min-width: 1081px) and (max-width: 1225px) {
     .Piercing {
         max-width: 26vw !important;
         margin: 15px 15px;
@@ -113,5 +115,6 @@
     .name {
         font-size: 17px;
         margin: 5px 0px;
+        color: pink;
     }
 }
