@@ -77,8 +77,7 @@
     }
 }
 
-/* Styles for tablet */
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 720px) {
     .Piercing {
         max-width: 40vw;
         margin: 7px 7px;
@@ -90,7 +89,7 @@
         font-size: 2.4vw;
     }
 }
-@media (min-width: 671px) and (max-width: 1000px) {
+@media (min-width: 721px) and (max-width: 1000px) {
     .Piercing {
         max-width: 25vw;
         margin: 10px 10px;
