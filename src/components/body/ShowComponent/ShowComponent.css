@@ -77,7 +77,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media (min-width: 601px) and (max-width: 720px) {
     .Piercing {
         max-width: 40vw;
         margin: 7px 7px;
