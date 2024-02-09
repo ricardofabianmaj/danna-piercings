@@ -26,6 +26,8 @@ function DefaultBar() {
     const [searchTerm, setSearchTerm] = useRecoilState(SearchedTerm);
     const [FavoritesPiercing, setFavoritesPiercing]: any= useRecoilState(SelectedPiercings)
 
+    
+
     return (
         <div id="DefaultBar">
             <div id="UpPart">
