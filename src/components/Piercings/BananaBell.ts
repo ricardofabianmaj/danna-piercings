@@ -12,12 +12,6 @@ export const BananaBell = [
         image: require('./piercingsmidia/6.jpg')
     },
     {
-        id: 59,
-        name: 'Banana Bell Flor',
-        price: 100,
-        image: require('./piercingsmidia/59.jpg')
-    },
-    {
         id: 64,
         name: 'Banana Bell Cruz',
         price: 100,
@@ -35,10 +29,5 @@ export const BananaBell = [
         price: 60,
         image: require('./piercingsmidia/74.jpg')
     },
-    {
-        id: 78,
-        name: 'Banana Bell Flor',
-        price: 100,
-        image: require('./piercingsmidia/78.jpg')
-    }
+    
 ];
