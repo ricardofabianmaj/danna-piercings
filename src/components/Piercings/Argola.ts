@@ -76,5 +76,11 @@ export const Argola = [
         name: 'Segmento com Zircônia Ornamentada',
         price: 80,
         image: require('./piercingsmidia/62.jpg')
+    },
+    {
+        id: 9,
+        name: 'Argola Clicker Cravejado',
+        price: 80,
+        image: require('./piercingsmidia/9.jpg')
     }
 ];

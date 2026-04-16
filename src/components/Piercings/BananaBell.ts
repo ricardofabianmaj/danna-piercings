@@ -29,5 +29,11 @@ export const BananaBell = [
         price: 60,
         image: require('./piercingsmidia/74.jpg')
     },
+    {
+        id: 1,
+        name: "Banana Bell Flat",
+        price: 80,
+        image: require('./piercingsmidia/1.jpg')
+    },
     
 ];

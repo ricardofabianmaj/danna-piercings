@@ -166,5 +166,29 @@ export const Labret= [
         name: 'Labret 7 Zircônias',
         price: 70,
         image: require('./piercingsmidia/84.jpg')
+    },
+    {
+        id: 2,
+        name: 'Labret Coração Vazado',
+        price: 80,
+        image: require('./piercingsmidia/2.jpg')
+    },
+    {
+        id: 7,
+        name: 'Labret Três Pedras',
+        price: 70,
+        image: require('./piercingsmidia/7.jpg')
+    },
+    {
+        id: 8,
+        name: 'Labret Arco de Pedras',
+        price: 100,
+        image: require('./piercingsmidia/8.jpg')
+    },
+    {
+        id: 10,
+        name: 'Labret Coroa',
+        price: 80,
+        image: require('./piercingsmidia/10.jpg')
     }
 ];
