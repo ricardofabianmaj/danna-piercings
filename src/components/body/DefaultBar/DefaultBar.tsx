@@ -22,7 +22,7 @@ function DefaultBar() {
     const FavoriteIcon = require('./Favorites.png')
 
     const [AllPiercings] = useRecoilState(CombinedVar);
-    const [searchTerm, setSearchTerm] = useRecoilState(SearchedTerm);
+    const [, setSearchTerm] = useRecoilState(SearchedTerm);
     const [FavoritesPiercing] = useRecoilState(SelectedPiercings)
 
     return (
