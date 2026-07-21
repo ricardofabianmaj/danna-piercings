@@ -1,5 +1,4 @@
 /*
-
 {
         id: número de id,
         name: 'Nome do Piercing',
