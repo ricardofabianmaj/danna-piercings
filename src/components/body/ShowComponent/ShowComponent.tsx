@@ -9,16 +9,17 @@ function removeAccents(str: string): string {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
-function ShowComponent({ SearchTermVar, ShowVar }: any) {
+function ShowComponent({ ShowVar }: any) {
     const [SelectedPiercingsVar, setSelectedPiercingVar]: any = useRecoilState(SelectedPiercings);
-    const [filteredPiercings, setFilteredPiercings] = useState([]);
+    const [filteredPiercings, setFilteredPiercings] = useState<IntPiercings[]>([]);
 
-    var [searchTerm, setSearchTerm] = useRecoilState(SearchedTerm);
+    const [searchTerm] = useRecoilState(SearchedTerm);
 
     useEffect(() => {
         if (searchTerm) {
             const filteredItems = ShowVar.filter((item: any) =>
-                removeAccents(item.name).toLowerCase().includes(searchTerm.toLowerCase()) || item.name.toLowerCase().includes(searchTerm.toLowerCase())
+                removeAccents(item.name).toLowerCase().includes(searchTerm.toLowerCase()) ||
+                item.name.toLowerCase().includes(searchTerm.toLowerCase())
             );
             setFilteredPiercings(filteredItems);
         } else {
@@ -28,16 +29,13 @@ function ShowComponent({ SearchTermVar, ShowVar }: any) {
 
     function AddPiercing(piercingToAdd: IntPiercings) {
         setSelectedPiercingVar([...SelectedPiercingsVar, piercingToAdd]);
-        console.log(SelectedPiercings);
-
-    };
+    }
 
     return (
         <div className="ShowComponent">
             {filteredPiercings.map((item: any) => (
                 <div className="Piercing" key={item.id}>
                     <img src={item.image} alt={'Foto do item número ' + item.id} />
-                    <br />
                     <p className="name">{item.name}</p>
                     <p className="price">R${item.price},00</p>
                     <button onClick={() => AddPiercing(item)}>Adicionar ao Carrinho</button>
