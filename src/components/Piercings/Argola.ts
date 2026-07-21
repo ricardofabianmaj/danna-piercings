@@ -1,3 +1,14 @@
+/*
+
+{
+        id: número de id,
+        name: 'Nome do Piercing',
+        price: Preço,
+        image: require('./piercingsmidia/ .jpg <- Colocar nome da imagem')
+    },
+
+*/
+
 export const Argola = [
     {
         id: 20,
