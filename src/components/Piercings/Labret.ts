@@ -202,7 +202,6 @@ export const Labret= [
         image: require('./piercingsmidia/2.jpg'),
         esgotado: false
     },
-    ,
     {
         id: 62,
         name: 'Labret Arco de Pedras',

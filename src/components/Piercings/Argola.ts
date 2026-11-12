@@ -44,7 +44,6 @@ export const Argola = [
         image: require('./piercingsmidia/24.jpg'),
         esgotado: false
     },
-    ,
     {
         id: 7,
         name: 'Coração Cravejado Direito',
@@ -122,4 +121,4 @@ export const Argola = [
         image: require('./piercingsmidia/argola-70-1794500425617.jpeg'),
         esgotado: false
     }
-];
+]

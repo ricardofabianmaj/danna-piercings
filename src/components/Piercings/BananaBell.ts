@@ -13,8 +13,6 @@ export const BananaBell = [
         image: require('./piercingsmidia/6.jpg'),
         esgotado: true
     },
-    ,
-    ,
     {
         id: 19,
         name: 'Banana Bell com Zircônias Brancas',
