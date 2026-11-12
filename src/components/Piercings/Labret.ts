@@ -83,7 +83,6 @@ export const Labret= [
         image: require('./piercingsmidia/34.jpg'),
         esgotado: false
     },
-    ,
     {
         id: 45,
         name: 'Labret Cobra',
