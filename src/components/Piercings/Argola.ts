@@ -134,5 +134,12 @@ export const Argola = [
         price: 100,
         image: require('./piercingsmidia/argola-72-1794501877673.jpeg'),
         esgotado: false
+    },
+    {
+        id: 96,
+        name: 'Segmento Três Voltas',
+        price: 100,
+        image: require('./piercingsmidia/argola-96-1794511574048.jpeg'),
+        esgotado: false
     }
 ]

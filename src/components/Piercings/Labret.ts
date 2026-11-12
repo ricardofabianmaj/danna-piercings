@@ -83,13 +83,7 @@ export const Labret= [
         image: require('./piercingsmidia/34.jpg'),
         esgotado: false
     },
-    {
-        id: 44,
-        name: 'Labret Estrela',
-        price: 50,
-        image: require('./piercingsmidia/35.jpg'),
-        esgotado: false
-    },
+    ,
     {
         id: 45,
         name: 'Labret Cobra',
@@ -228,6 +222,27 @@ export const Labret= [
         name: 'Labret Clusters Zircônia Curvada',
         price: 80,
         image: require('./piercingsmidia/labret-67-1794500212226.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 82,
+        name: 'Labret Duas Pedras',
+        price: 70,
+        image: require('./piercingsmidia/labret-0-1794509242784.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 89,
+        name: 'Labret Ramo',
+        price: 100,
+        image: require('./piercingsmidia/labret-89-1794511163260.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 99,
+        name: 'Labret Cluster Mini',
+        price: 80,
+        image: require('./piercingsmidia/labret-99-1794512480235.jpeg'),
         esgotado: false
     }
 ];

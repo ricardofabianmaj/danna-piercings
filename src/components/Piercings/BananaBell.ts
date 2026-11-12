@@ -61,5 +61,26 @@ export const BananaBell = [
         price: 100,
         image: require('./piercingsmidia/bananabell-75-1794502911526.jpeg'),
         esgotado: false
+    },
+    {
+        id: 69,
+        name: 'Banana Bell Uma Pedra',
+        price: 70,
+        image: require('./piercingsmidia/bananabell-69-1794510930437.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 92,
+        name: 'Banana Bell Cluster Opala',
+        price: 100,
+        image: require('./piercingsmidia/bananabell-92-1794511505857.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 12,
+        name: 'Banana Bell Três esferas',
+        price: 80,
+        image: require('./piercingsmidia/bananabell-12-1794511922596.jpeg'),
+        esgotado: false
     }
 ];
