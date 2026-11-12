@@ -47,5 +47,12 @@ export const BananaBell = [
         price: 100,
         image: require('./piercingsmidia/bananabell-73-1794501902473.jpeg'),
         esgotado: false
+    },
+    {
+        id: 74,
+        name: 'Banana Bell 4 Pedras',
+        price: 100,
+        image: require('./piercingsmidia/bananabell-74-1794502133438.jpeg'),
+        esgotado: false
     }
 ];
