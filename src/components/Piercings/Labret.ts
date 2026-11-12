@@ -81,7 +81,7 @@ export const Labret= [
         name: 'Labret Spike',
         price: 50,
         image: require('./piercingsmidia/34.jpg'),
-        esgotado: false
+        esgotado: true
     },
     {
         id: 35,
@@ -137,7 +137,7 @@ export const Labret= [
         name: 'Labret Zircônia 12 Esferas',
         price: 70,
         image: require('./piercingsmidia/52.jpg'),
-        esgotado: false
+        esgotado: true
     },
     {
         id: 54,

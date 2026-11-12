@@ -63,7 +63,7 @@ export const Argola = [
         name: 'Segmento Frontal Cravejado Duplo',
         price: 80,
         image: require('./piercingsmidia/27.jpg'),
-        esgotado: false
+        esgotado: true
     },
     {
         id: 28,
@@ -84,7 +84,7 @@ export const Argola = [
         name: 'Segmento com Zircônia Ornamentada',
         price: 80,
         image: require('./piercingsmidia/31.jpg'),
-        esgotado: false
+        esgotado: true
     },
     {
         id: 53,

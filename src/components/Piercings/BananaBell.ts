@@ -18,14 +18,14 @@ export const BananaBell = [
         name: 'Banana Bell Cruz',
         price: 100,
         image: require('./piercingsmidia/64.jpg'),
-        esgotado: false
+        esgotado: true
     },
     {
         id: 68,
         name: 'Banan Bell 4 Zircônias',
         price: 100,
         image: require('./piercingsmidia/68.jpg'),
-        esgotado: false
+        esgotado: true
     },
     {
         id: 74,
@@ -36,7 +36,7 @@ export const BananaBell = [
     },
     {
         id: 1,
-        name: "Banana Bell Flat",
+        name: 'Banana Bell Flat',
         price: 80,
         image: require('./piercingsmidia/1.jpg'),
         esgotado: false
