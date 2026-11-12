@@ -35,10 +35,31 @@ function ShowComponent({ ShowVar }: any) {
         <div className="ShowComponent">
             {filteredPiercings.map((item: any) => (
                 <div className="Piercing" key={item.id}>
-                    <img src={item.image} alt={'Foto do item número ' + item.id} />
-                    <p className="name">{item.name}</p>
-                    <p className="price">R${item.price},00</p>
-                    <button onClick={() => AddPiercing(item)}>Adicionar ao Carrinho</button>
+                    <div className="image-container">
+                        <img src={item.image} alt={'Foto do item número ' + item.id} />
+
+                        {item.esgotado && (
+                            <span className="esgotado">ESGOTADO</span>
+                        )}
+                    </div>
+
+                    <p
+                        className="name"
+                        style={{ textDecoration: item.esgotado ? 'line-through' : 'none' }}
+                    >
+                        {item.name}
+                    </p>
+
+                    <p
+                        className="price"
+                        style={{ textDecoration: item.esgotado ? 'line-through' : 'none' }}
+                    >
+                        R${item.price},00
+                    </p>
+
+                    <button onClick={() => AddPiercing(item)} disabled={item.esgotado}>
+                        {item.esgotado ? 'Esgotado' : 'Adicionar ao Carrinho'}
+                    </button>
                 </div>
             ))}
 

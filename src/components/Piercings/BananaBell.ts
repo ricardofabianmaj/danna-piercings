@@ -3,37 +3,43 @@ export const BananaBell = [
         id: 5,
         name: 'Banana Bell JBar',
         price: 60,
-        image: require('./piercingsmidia/5.jpg')
+        image: require('./piercingsmidia/5.jpg'),
+        esgotado: false
     },
     {
         id: 6,
         name: 'Banana Bell com Zircônias Furtacor ',
         price: 100,
-        image: require('./piercingsmidia/6.jpg')
+        image: require('./piercingsmidia/6.jpg'),
+        esgotado: false
     },
     {
         id: 64,
         name: 'Banana Bell Cruz',
         price: 100,
-        image: require('./piercingsmidia/64.jpg')
+        image: require('./piercingsmidia/64.jpg'),
+        esgotado: false
     },
     {
         id: 68,
         name: 'Banan Bell 4 Zircônias',
         price: 100,
-        image: require('./piercingsmidia/68.jpg')
+        image: require('./piercingsmidia/68.jpg'),
+        esgotado: false
     },
     {
         id: 74,
         name: 'Banana Bell com Zircônias Brancas',
         price: 60,
-        image: require('./piercingsmidia/74.jpg')
+        image: require('./piercingsmidia/74.jpg'),
+        esgotado: false
     },
     {
         id: 1,
         name: "Banana Bell Flat",
         price: 80,
-        image: require('./piercingsmidia/1.jpg')
+        image: require('./piercingsmidia/1.jpg'),
+        esgotado: false
     },
     
 ];

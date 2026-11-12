@@ -57,6 +57,31 @@
     text-align: center;
     margin: 50px;
 }
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.esgotado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
 
 /* Styles for cellfone */
 @media (max-width: 600px) {
