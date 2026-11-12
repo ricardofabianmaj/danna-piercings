@@ -120,5 +120,19 @@ export const Argola = [
         price: 80,
         image: require('./piercingsmidia/argola-70-1794500425617.jpeg'),
         esgotado: false
+    },
+    {
+        id: 71,
+        name: 'Argola dupla e lisa',
+        price: 100,
+        image: require('./piercingsmidia/argola-71-1794501850869.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 72,
+        name: 'Argola Cravejada Dupla',
+        price: 100,
+        image: require('./piercingsmidia/argola-72-1794501877673.jpeg'),
+        esgotado: false
     }
 ]
