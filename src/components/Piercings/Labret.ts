@@ -243,5 +243,12 @@ export const Labret= [
         price: 80,
         image: require('./piercingsmidia/labret-99-1794512480235.jpeg'),
         esgotado: false
+    },
+    {
+        id: 100,
+        name: 'Labret Bioflex',
+        price: 20,
+        image: require('./piercingsmidia/labret-100-1794518106737.jpeg'),
+        esgotado: false
     }
 ];

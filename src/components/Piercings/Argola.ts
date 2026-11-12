@@ -34,7 +34,7 @@ export const Argola = [
         id: 4,
         name: 'Segmento Frontal Cravejada',
         price: 80,
-        image: require('./piercingsmidia/23.jpg'),
+        image: require('./piercingsmidia/WhatsApp Image 2026-11-12 at 16.49.27.jpeg'),
         esgotado: false
     },
     {
