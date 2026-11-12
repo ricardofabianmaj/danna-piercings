@@ -17,7 +17,7 @@ export const BananaBell = [
         id: 19,
         name: 'Banana Bell com Zircônias Brancas',
         price: 70,
-        image: require('./piercingsmidia/74.jpg'),
+        image: require('./piercingsmidia/WhatsApp Image 2026-11-12 at 13.51.26.jpeg'),
         esgotado: false
     },
     {
@@ -45,7 +45,7 @@ export const BananaBell = [
         id: 73,
         name: 'Banana Bell Zircônia',
         price: 100,
-        image: require('./piercingsmidia/bananabell-73-1794501902473.jpeg'),
+        image: require('./piercingsmidia/WhatsApp Image 2026-11-12 at 13.50.44.jpeg'),
         esgotado: false
     },
     {
@@ -53,6 +53,13 @@ export const BananaBell = [
         name: 'Banana Bell 4 Pedras',
         price: 100,
         image: require('./piercingsmidia/bananabell-74-1794502133438.jpeg'),
+        esgotado: false
+    },
+    {
+        id: 75,
+        name: 'Banana Bell Cluster Zircônia',
+        price: 100,
+        image: require('./piercingsmidia/bananabell-75-1794502911526.jpeg'),
         esgotado: false
     }
 ];
